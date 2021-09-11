@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { Layout } from "../components/Layout";
-import UseTech from "../components/UseTech";
+import { Layout } from "components/Layout";
+import UseTech from "components/UseTech";
 
 const Cards: React.FC = () => {
   return (

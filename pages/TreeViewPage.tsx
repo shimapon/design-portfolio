@@ -4,8 +4,8 @@ import TreeView from "@material-ui/lab/TreeView";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import TreeItem from "@material-ui/lab/TreeItem";
-import { Layout } from "../components/Layout";
-import UseTech from "../components/UseTech";
+import { Layout } from "components/Layout";
+import UseTech from "components/UseTech";
 
 const useStyles = makeStyles({
   root: {},

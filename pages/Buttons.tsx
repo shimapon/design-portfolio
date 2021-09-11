@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { Layout } from "../components/Layout";
-import UseTech from "../components/UseTech";
+import { Layout } from "components/Layout";
+import UseTech from "components/UseTech";
 
 const useStyles = makeStyles({
   root: {
