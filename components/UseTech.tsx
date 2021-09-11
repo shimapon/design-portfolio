@@ -10,7 +10,7 @@ const UseTech: React.FC<Props> = ({ techName, srcURL }) => {
     <div className="w-full bg-gray-300 rounded opacity-90 shadow my-2 text-gray-900 p-2">
       <p className="text-2xl">{techName}</p>
       <button
-        className="bg-gray-800 text-white px-4 py-2 rounded shadow"
+        className="bg-gray-800 text-white px-4 py-2 rounded shadow hover:bg-opacity-50"
         onClick={() => window.open(srcURL, "_blank")}
       >
         <svg
