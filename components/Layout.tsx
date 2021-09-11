@@ -24,10 +24,10 @@ export const Layout: React.FC<Props> = ({ children, isTop }) => {
       <main className="text-black dark:text-gray-200 mx-4 min-h-screen">
         {!isTop && (
           <Link href="/" passHref>
-            <div className="cursor-pointer">
+            <div className="cursor-pointer py-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-8 w-8 my-3"
+                className="h-8 w-8"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
