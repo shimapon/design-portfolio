@@ -1,35 +1,42 @@
 import type { NextPage } from "next";
 import Link from "next/link";
-import { Layout } from "../components/Layout";
+import { Layout } from "components/Layout";
 
 const products = [
   {
     id: 1,
     name: "TreeView",
     href: "/TreeViewPage",
-    imageSrc: "/treeview.png",
+    imageSrc: "images/treeview.png",
     imageAlt: "Front of treeview",
   },
   {
     id: 2,
     name: "Buttons",
     href: "/Buttons",
-    imageSrc: "/buttons.png",
+    imageSrc: "images/buttons.png",
     imageAlt: "Front of buttons",
   },
   {
     id: 3,
     name: "Cards",
     href: "/Cards",
-    imageSrc: "/cards.png",
+    imageSrc: "images/cards.png",
     imageAlt: "Front of cards",
   },
   {
     id: 4,
     name: "FloatingLabels",
     href: "/FloatingLabels",
-    imageSrc: "/fcards.png",
+    imageSrc: "images/fcards.png",
     imageAlt: "Front of FloatingLabels",
+  },
+  {
+    id: 5,
+    name: "Icons",
+    href: "/Icons",
+    imageSrc: "images/Icons.png",
+    imageAlt: "Front of Icons",
   },
 ];
 
